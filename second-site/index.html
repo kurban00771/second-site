@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOIR - Fashion Forward</title>
+    <link rel="stylesheet" href="templatemo-noir-fashion.css">
+    <!-- 
+TemplateMo 599 Noir Fashion
+https://templatemo.com/tm-599-noir-fashion
+-->
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#fff;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#ff3366;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <polygon points="50,10 20,50 50,90 80,50" fill="none" stroke="url(#logoGrad)" stroke-width="3" />
+                    <circle cx="50" cy="50" r="5" fill="url(#logoGrad)" />
+                </svg>
+                <span class="logo-text">ЭДО</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#collections" class="nav-link">Collections</a></li>
+                <!-- <li><a href="#featured" class="nav-link">Featured</a></li> -->
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#map" class="nav-link">Map</a></li>
+                <li><a href="#about" class="nav-cta">About us</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <!-- <li><a href="#featured">Featured</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#about">About us</a></li>
+        </ul>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1 class="hero-title">
+                    <span class="line"><span>Эдуард</span></span>
+                    <span class="line"><span class="accent">Поездки</span>
+                </h1>
+                <p class="hero-description">
+                    Индивидуальные экскурсии по живописным уголкам Кавказа. От Верхнего парка Кисловодска до
+                    величественных Джилы-Су, Домбая и Архыза. Погрузитесь в мир гор.
+                </p>
+                <div class="cta-group">
+                    <a href="#collections" class="cta-button primary">Explore Collection</a>
+                    <!-- <a href="#featured" class="cta-button outline">Watch Runway</a> -->
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-image-wrapper">
+                    <div class="hero-carousel">
+                        <div class="carousel-slide active">
+                            <img src="images/djil.jpg" alt="Fashion Model 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/Domb.jpg" alt="Fashion Model 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/Arkh.jpg" alt="Fashion Model 3">
+                        </div>
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-indicators">
+                            <span class="indicator active" data-slide="0"></span>
+                            <span class="indicator" data-slide="1"></span>
+                            <span class="indicator" data-slide="2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collections" id="collections">
+        <div class="section-header">
+            <h2 class="section-title">Кавказские туры</h2>
+            <p class="section-subtitle">ОТКРОЙТЕ ДЛЯ СЕБЯ УНИКАЛЬНЫЕ МАРШРУТЫ</p>
+        </div>
+
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="all">ВСЕ ТУРЫ</button>
+            <button class="tab-btn" data-category="women">ДЖИЛЫ-СУ</button>
+            <button class="tab-btn" data-category="men">ДОМБАЙ</button>
+            <button class="tab-btn" data-category="accessories">АРХЫЗ</button>
+        </div>
+
+        <div class="grid" id="collectionsGrid">
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img src="images/dzhilysu1.avif" alt="Urban Edge Women's Collection">
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img src="images/dzhilysu2.avif" alt="Midnight Luxe Limited Edition">
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img src="images/dombay1.avif" alt="Neo Classic Men's Essentials">
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img src="images/dombay2.avif" alt="Accent Pieces Accessories">
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img src="images/arkhyz1.avif" alt="Street Rebel Men's Streetwear">
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img src="images/arkhyz2.avif" alt="Minimal Chic Timeless Accessories">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2 class="section-title">Задайте вопрос.</h2>
+                <p class="section-subtitle">Мы на связи.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info no-select">
+                    <div class="contact-img-wrapper">
+                        <img src="images/contact.jpg" class="contact-img" alt="">
+                        <canvas id="noiseCanvas"></canvas>
+                        <div class="no-save"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="map-section" id="map">
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d718.7417523400196!2d42.726418869628304!3d43.89794999819325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sru!2sru!4v1770148128142!5m2!1sru!2sru"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer id="about">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>ЭДО</h3>
+                <p>Откройте для себя Кисловодск с нами. Мы гарантируем индивидуальный подход и заботу о вашем комфорте.
+                    Всегда рады гостям!</p>
+                <div class="social-links">
+                    <a href="https://max.ru/u/ID_Эдуарда" class="social-link" target="_blank">
+                        <img src="images/max.svg" alt="MAX Messenger" class="soc-icon">
+                    </a>
+                    <a href="https://t.me/eduard_future" class="social-link" aria-label="Telegram Эдуарда">
+                        <img src="images/telegram.svg" alt="Telegram" class="soc-icon">
+                    </a>
+                    <a id="wa-link" class="social-link">
+                        <img src="images/wts.svg" alt="WhatsApp" class="soc-icon">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ЭДО. Открываем город вместе.</p>
+        </div>
+    </footer>
+
+    <script src="templatemo-noir-scripts.js"></script>
+</body>
+
+</html>
